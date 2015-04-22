@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		4271A8781ADE56BF00903EEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4271A8771ADE56BF00903EEB /* main.m */; };
 		4271A87B1ADE56BF00903EEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4271A87A1ADE56BF00903EEB /* AppDelegate.m */; };
-		4271A87E1ADE56BF00903EEB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4271A87D1ADE56BF00903EEB /* ViewController.m */; };
+		4271A87E1ADE56BF00903EEB /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4271A87D1ADE56BF00903EEB /* DataViewController.m */; };
 		4271A8811ADE56BF00903EEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4271A87F1ADE56BF00903EEB /* Main.storyboard */; };
 		4271A8831ADE56BF00903EEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4271A8821ADE56BF00903EEB /* Images.xcassets */; };
 		4271A8861ADE56BF00903EEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4271A8841ADE56BF00903EEB /* LaunchScreen.xib */; };
 		4271A8921ADE56BF00903EEB /* FundationNetworkingPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4271A8911ADE56BF00903EEB /* FundationNetworkingPracticeTests.m */; };
+		4271A89D1ADE598200903EEB /* DataTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4271A89C1ADE598200903EEB /* DataTableViewCell.m */; };
+		4271A8A01ADE661300903EEB /* NSDictionary+CheckNull.m in Sources */ = {isa = PBXBuildFile; fileRef = 4271A89F1ADE661300903EEB /* NSDictionary+CheckNull.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		4271A8771ADE56BF00903EEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4271A8791ADE56BF00903EEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4271A87A1ADE56BF00903EEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4271A87C1ADE56BF00903EEB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4271A87D1ADE56BF00903EEB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4271A87C1ADE56BF00903EEB /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		4271A87D1ADE56BF00903EEB /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
 		4271A8801ADE56BF00903EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4271A8821ADE56BF00903EEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4271A8851ADE56BF00903EEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4271A88B1ADE56BF00903EEB /* FundationNetworkingPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FundationNetworkingPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4271A8901ADE56BF00903EEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4271A8911ADE56BF00903EEB /* FundationNetworkingPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FundationNetworkingPracticeTests.m; sourceTree = "<group>"; };
+		4271A89B1ADE598200903EEB /* DataTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataTableViewCell.h; sourceTree = "<group>"; };
+		4271A89C1ADE598200903EEB /* DataTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataTableViewCell.m; sourceTree = "<group>"; };
+		4271A89E1ADE661300903EEB /* NSDictionary+CheckNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+CheckNull.h"; sourceTree = "<group>"; };
+		4271A89F1ADE661300903EEB /* NSDictionary+CheckNull.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+CheckNull.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,12 +89,16 @@
 			children = (
 				4271A8791ADE56BF00903EEB /* AppDelegate.h */,
 				4271A87A1ADE56BF00903EEB /* AppDelegate.m */,
-				4271A87C1ADE56BF00903EEB /* ViewController.h */,
-				4271A87D1ADE56BF00903EEB /* ViewController.m */,
+				4271A89B1ADE598200903EEB /* DataTableViewCell.h */,
+				4271A89C1ADE598200903EEB /* DataTableViewCell.m */,
+				4271A87C1ADE56BF00903EEB /* DataViewController.h */,
+				4271A87D1ADE56BF00903EEB /* DataViewController.m */,
 				4271A87F1ADE56BF00903EEB /* Main.storyboard */,
 				4271A8821ADE56BF00903EEB /* Images.xcassets */,
 				4271A8841ADE56BF00903EEB /* LaunchScreen.xib */,
 				4271A8751ADE56BF00903EEB /* Supporting Files */,
+				4271A89E1ADE661300903EEB /* NSDictionary+CheckNull.h */,
+				4271A89F1ADE661300903EEB /* NSDictionary+CheckNull.m */,
 			);
 			path = FundationNetworkingPractice;
 			sourceTree = "<group>";
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4271A87E1ADE56BF00903EEB /* ViewController.m in Sources */,
+				4271A87E1ADE56BF00903EEB /* DataViewController.m in Sources */,
 				4271A87B1ADE56BF00903EEB /* AppDelegate.m in Sources */,
 				4271A8781ADE56BF00903EEB /* main.m in Sources */,
+				4271A8A01ADE661300903EEB /* NSDictionary+CheckNull.m in Sources */,
+				4271A89D1ADE598200903EEB /* DataTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
